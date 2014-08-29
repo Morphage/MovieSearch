@@ -1,7 +1,7 @@
 MovieTool
 =========
 
-A tool designed to help in deciding which movie to watch next, based on criteria such as runtime, IMDB rating and Metascore. The tool can also be used for other general search purposes. Makes use of the IMDB API and database to gather the previously mentioned information.
+A tool designed to help in deciding which movie to watch next, based on criteria such as runtime, IMDB rating and Metascore. The tool can also be used for other purposes like movie comparison or multiple movie search. Makes use of the IMDB API and database to gather the previously mentioned information.
 
 ##### How to Use
 Open a terminal or command prompt and run `python movie_tool.py`. The list of movies you want to use the tool on should be located in a file called `movies_to_watch.txt` and this file should contain the exact title of the movies, one per line. Example output of the tool is shown below:
@@ -52,3 +52,6 @@ Highest IMDB rating: The Shawshank Redemption - 9.3
 Highest Metascore: The Godfather - 100
 Highest weighted rating: The Godfather - 96.0
 ```
+
+##### Notes
+The tool only uses the movie title to query the IMDB database, thus the search can be quite slow at times. In addition, for remakes of movies, the tool will return the most popular movie based on its IMDB page. Finally, movie titles should be exact, otherwise the search won't return the movie you expected and the information you were interested in.
