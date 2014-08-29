@@ -1,7 +1,7 @@
-MovieTool
+MovieSearch
 =========
 
-A tool designed to help in deciding which movie to watch next, based on criteria such as runtime, IMDB rating and Metascore. The tool can also be used for other purposes like movie comparison or multiple movie search. Makes use of the IMDB API and database to gather the previously mentioned information.
+MovieSearch is a tool designed to help in deciding which movie to watch next, based on criteria such as runtime, IMDB rating and Metascore. The tool can also be used for other purposes like movie comparison or multiple movie search. Makes use of the IMDB API and database to gather the previously mentioned information.
 
 ##### How to Use
 Open a terminal or command prompt and run `python movie_tool.py`. The list of movies you want to use the tool on should be located in a file called `movies_to_watch.txt` and this file should contain the exact title of the movies, one per line. Example output of the tool is shown below:
