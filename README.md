@@ -12,7 +12,7 @@ Loading movies from "movies_to_watch.txt"...
 Done loading. Loaded 33/33 movies successfully.
 
     Title                                Runtime    IMDB Rating    Metascore
-  ------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
     Good Will Hunting                     2h06          8.2           70
     Black Swan                            1h48          8.0           79
     Life of Pi                            2h07          8.0           79
